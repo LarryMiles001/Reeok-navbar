@@ -67,7 +67,7 @@ span {
 .menu{
     position: absolute;
     right: 5%;
-    color: white;
+    color: #DC9170;
     font-size: 2rem;
     cursor: pointer;
     display: none;
@@ -76,6 +76,9 @@ span {
 @media(max-width: 992px) {
     .header{
         padding: 1.3rem 5%;
+    }
+    .navbar a{
+        color: #A98F76;
     }
 }
 
@@ -86,6 +89,10 @@ span {
 
     #check:checked~.menu #icon-menu{
         display: none;
+    }
+
+    .navbar a{
+        color: #A98F76;
     }
 
     .menu #icon-menu{
